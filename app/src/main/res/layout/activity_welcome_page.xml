@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple"
+    tools:context=".ui.activity.WelcomePage">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintBaseline_toTopOf="parent">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="413dp"
+        android:layout_height="380dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_welcome_page"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_gravity="bottom"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/hello"
+        android:textColor="@color/purple_dark"
+        android:textSize="22dp" />
+
+</FrameLayout>
+
+
+
+
+</LinearLayout>
