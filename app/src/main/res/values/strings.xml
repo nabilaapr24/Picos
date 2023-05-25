@@ -3,4 +3,13 @@
     <!--    Welcome Page    -->
     <string name="hello">Hello Beautiful,</string>
     <string name="welcome_desc">Enter your description below or login with Google Account</string>
+    <string name="welcome_to">WELCOME TO PICOS</string>
+    <string name="continue_with_google">Continue With Google</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="password_again">Password Again</string>
+    <string name="your_buddy">Your Period Buddy</string>
 </resources>

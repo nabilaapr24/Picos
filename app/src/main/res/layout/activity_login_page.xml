@@ -1,10 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.activity.LoginPage"
-    android:background="@drawable/background_welcome">
+    android:background="@drawable/background_welcome"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/welcome_to_picos"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/welcome_to"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/your_period_buddy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/welcome_to_picos"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="131dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="124dp"
+            android:layout_marginBottom="-169dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/your_buddy"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+        <Button
+            android:id="@+id/signin"
+            android:layout_width="310dp"
+            android:layout_height="52dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="143dp"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/button_create_account"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="@string/sign_in"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="310dp"
+            android:layout_height="52dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="655dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="78dp"
+            android:background="@drawable/button_create_account"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="@string/sign_up"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
 
 </LinearLayout>
