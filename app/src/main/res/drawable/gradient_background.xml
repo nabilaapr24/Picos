@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <bitmap
             android:src="@drawable/background_welcome"
-            android:gravity="center" />
+        android:gravity="center" />
     </item>
     <item>
         <shape>
             <gradient
-                android:startColor="#C9CAF3"
-                android:endColor="#650000FF"
-                android:angle="45" />
+                android:type="linear"
+                android:startColor="#FF0000"
+            android:endColor="#0000FF"
+            android:angle="90" />
         </shape>
     </item>
 </layer-list>
