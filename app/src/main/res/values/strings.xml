@@ -10,6 +10,11 @@
     <string name="sign_up">Sign Up</string>
     <string name="email_address">Email Address</string>
     <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
     <string name="password_again">Password Again</string>
     <string name="your_buddy">Your Period Buddy</string>
+
+
+    <string name="name">Name</string>
+    <string name="username">Username</string>
 </resources>
