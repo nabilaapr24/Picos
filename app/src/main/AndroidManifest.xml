@@ -21,8 +21,8 @@
             android:exported="false" />
         <activity
             android:name=".ui.activity.WelcomePage"
-            android:exported="false"
-            />
+            android:exported="false"/>
+
         <activity
             android:name=".ui.activity.SplashScreen"
             android:exported="true" >
@@ -35,13 +35,7 @@
         </activity>
         <activity
             android:name=".ui.activity.MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true"/>
     </application>
 
 </manifest>

@@ -26,7 +26,7 @@
         android:fontFamily="@font/poppins_bold"
         android:text="@string/hello"
         android:textColor="@color/purple_dark"
-        android:textSize="22dp" />
+        android:textSize="22sp" />
 
 
 </FrameLayout>
@@ -56,7 +56,9 @@
             android:hint="@string/email_address"
             android:textColorHint="@color/white"
             android:layout_marginTop="15dp"
+            android:autofillHints="email"
             android:inputType="textEmailAddress"
+
             android:backgroundTint="@color/white"/>
 
         <EditText
@@ -67,14 +69,15 @@
             android:textColorHint="@color/white"
             android:hint="@string/password"
             android:inputType="textPassword"
+            android:autofillHints="password"
             android:backgroundTint="@color/white"/>
 
         <Button
-            android:id="@+id/buttonContinueWithGoogle"
+            android:id="@+id/buttonLogin"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginTop="20dp"
-            android:text="@string/continue_with_google"
+            android:text="@string/login"
             android:background="@drawable/button_create_account"
             android:scaleX="0.8"
             android:scaleY="0.8"
