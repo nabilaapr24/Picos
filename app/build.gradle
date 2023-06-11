@@ -58,9 +58,10 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1" //viewModelScope
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.6.1" //liveData
     implementation "androidx.room:room-ktx:2.5.1"
-    implementation 'com.google.firebase:firebase-auth:21.0.3'
+    implementation 'com.google.firebase:firebase-auth:22.0.0'
     implementation 'com.google.firebase:firebase-auth-ktx:22.0.0'
     implementation 'androidx.databinding:databinding-runtime:8.0.2'
+    implementation 'com.google.firebase:firebase-database-ktx:20.2.2'
     kapt "androidx.room:room-compiler:2.6.0-alpha01"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"

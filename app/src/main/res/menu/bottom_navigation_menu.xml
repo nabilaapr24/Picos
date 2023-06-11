@@ -9,7 +9,6 @@
         android:icon="@drawable/baseline_calendar_today_24"
         android:title="Calendar" />
 
-
     <item
         android:id="@+id/navigation_logs"
         android:icon="@drawable/baseline_account_circle_24"

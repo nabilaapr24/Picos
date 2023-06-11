@@ -1,5 +1,6 @@
 package com.example.picos.ui.activity.assessment
 
+import android.content.Intent
 import android.graphics.Color
 import android.graphics.Typeface
 import android.os.Bundle
@@ -130,6 +131,12 @@ class QuestionsFragment : Fragment(), View.OnClickListener {
                 } else {
                     if(currentQuest == dummyQuestList.size){
                         binding.btnNext.text = "Finished"
+                        val fragment = ResultFragment()
+                        val fragmentManager = requireActivity().supportFragmentManager
+                        val transaction = fragmentManager.beginTransaction()
+                        transaction.replace(R.id.myNavHostFragment, fragment) // Ganti R.id.container dengan ID dari kontainer tempat Anda ingin menampilkan fragment
+                        transaction.addToBackStack(null) // Jika Anda ingin menambahkan fragment ini ke back stack
+                        transaction.commit()
                     }else {
 
                         binding.btnNext.text = "NEXT"
