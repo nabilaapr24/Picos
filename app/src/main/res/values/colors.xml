@@ -14,4 +14,8 @@
     <color name="lavender">#747CE4</color>
     <color name="lavender_dark">#6666CA</color>
     <color name="purple_dark">#50478E</color>
+    <color name="purple_home">#747CE4</color>
+    <color name="purple_welcome">#5F38C5</color>
+    <color name="purple_day">#4A2B9B</color>
+
 </resources>

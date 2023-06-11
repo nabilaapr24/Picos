@@ -13,6 +13,8 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="password_again">Password Again</string>
     <string name="your_buddy">Your Period Buddy</string>
+
+
     <string name="name">Name</string>
     <string name="username">Username</string>
     <!-- assessment -->
@@ -35,4 +37,17 @@
     <string name="sample_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id pellentesque sem. </string>
     <string name="btnResult">Back to Home</string>
     <!-- assessment -->
+
+    <!--    Home Page    -->
+    <string name="calendar">Calendar</string>
+    <string name="new_log_button_description">New Log</string>
+    <string name="calendar_button_description">Calendar</string>
+    <string name="my_cycle">My Cycle</string>
+    <string name="question_home">What do you want to do?</string>
+    <string name="period">Period:</string>
+    <string name="day">8</string>
+    <string name="self_assessment_desc">Lorem ipsum dolor sit amet ko wi lulu lulu lulu lulu lulu lulu lulu lulu lulu lulu lulu lulu lullu lulu.</string>
+    <string name="my_cycle_desc">Lorem ipsum dolor sit amet ko wi lulu lulu lulu lulu lulu lulu lulu lulu lulu lulu lulu lulu lullu lulu.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
 </resources>

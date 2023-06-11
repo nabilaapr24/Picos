@@ -25,6 +25,7 @@
         <activity
             android:name=".ui.activity.WelcomePage"
             android:exported="false" />
+
         <activity
             android:name=".ui.activity.SplashScreen"
             android:exported="true">
