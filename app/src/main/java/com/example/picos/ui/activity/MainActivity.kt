@@ -6,6 +6,7 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.example.picos.databinding.ActivityMainBinding
 import com.example.picos.ui.fragment.CalendarFragment
+import com.example.picos.ui.fragment.EditProfileFragment
 import com.example.picos.ui.fragment.ProfileFragment
 import com.example.picos.ui.fragment.HomeFragment
 

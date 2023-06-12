@@ -14,6 +14,7 @@ import com.google.firebase.auth.FirebaseAuth
 class ProfileFragment : Fragment() {
 
     private lateinit var btnLogout: Button
+    private lateinit var btnEdit : Button
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -21,7 +22,16 @@ class ProfileFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_profile, container, false)
         btnLogout = view.findViewById(R.id.btnLogout)
+
+        btnEdit = view.findViewById(R.id.btnEditProfile)
+        btnEdit.setOnClickListener {
+            val intent = Intent(requireContext(), EditProfileFragment::class.java)
+            startActivity(intent)
+        }
+
         return view
+
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
