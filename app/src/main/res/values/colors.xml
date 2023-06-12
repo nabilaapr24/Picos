@@ -17,5 +17,7 @@
     <color name="purple_home">#747CE4</color>
     <color name="purple_welcome">#5F38C5</color>
     <color name="purple_day">#4A2B9B</color>
+    <color name="grey">#D9D9D9</color>
+    <color name="purple_navigation">#B6A1F1</color>
 
 </resources>

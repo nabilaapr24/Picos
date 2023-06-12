@@ -2,7 +2,7 @@
     <string name="app_name">Picos</string>
     <!--    Welcome Page    -->
     <string name="hello">Hello Beautiful,</string>
-    <string name="welcome_desc">Enter your description below or login with Google Account</string>
+    <string name="welcome_desc">Enter your email address and your password for login</string>
     <string name="welcome_to">WELCOME TO PICOS</string>
     <string name="login">Login</string>
     <string name="create_account">Create Account</string>
@@ -49,5 +49,8 @@
     <string name="self_assessment_desc">Lorem ipsum dolor sit amet ko wi lulu lulu lulu lulu lulu lulu lulu lulu lulu lulu lulu lulu lullu lulu.</string>
     <string name="my_cycle_desc">Lorem ipsum dolor sit amet ko wi lulu lulu lulu lulu lulu lulu lulu lulu lulu lulu lulu lulu lullu lulu.</string>
 
+    <!--    Profile & Edit Profile    -->
+    <string name="full_name">Full Name</string>
+    <string name="last_name">Last Name</string>
     <!-- TODO: Remove or change this placeholder text -->
 </resources>

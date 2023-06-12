@@ -39,24 +39,7 @@
         android:orientation="vertical"
         >
 
-        <EditText
-            android:id="@+id/nameRegister"
-            android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:hint="@string/name"
-            android:textColorHint="@color/white"
-            android:layout_marginTop="15dp"
-            android:inputType="text"
-            android:backgroundTint="@color/white"/>
-        <EditText
-            android:id="@+id/usernameRegister"
-            android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:hint="@string/username"
-            android:textColorHint="@color/white"
-            android:layout_marginTop="15dp"
-            android:inputType="text"
-            android:backgroundTint="@color/white"/>
+
         <EditText
             android:id="@+id/emailAddressRegister"
             android:layout_width="match_parent"
@@ -91,12 +74,13 @@
             android:id="@+id/buttonCreateAccount"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="100dp"
             android:text="@string/create_account"
             android:background="@drawable/button_create_account"
+            android:backgroundTint="@color/white"
             android:scaleX="0.8"
             android:scaleY="0.8"
-            android:textColor="@color/black"/>
+            android:textColor="@color/white"/>
 
     </LinearLayout>
 

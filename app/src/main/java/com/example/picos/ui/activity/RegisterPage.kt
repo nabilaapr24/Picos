@@ -27,8 +27,6 @@ class RegisterPage : AppCompatActivity() {
     }
 
     private fun registerUser() {
-        val name = binding.nameRegister.text.toString()
-        val username = binding.usernameRegister.text.toString()
         val email = binding.emailAddressRegister.text.toString()
         val password = binding.passwordRegister.text.toString()
         val confirmPassword = binding.confirmPasswordRegister.text.toString()

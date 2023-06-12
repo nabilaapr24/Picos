@@ -1,17 +1,12 @@
 package com.example.picos.ui.activity
 
-import android.R
-import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.example.picos.databinding.ActivityMainBinding
-import com.example.picos.databinding.ActivityMainDashboardBinding
-import com.example.picos.ui.activity.assessment.MainDashboard
 import com.example.picos.ui.fragment.CalendarFragment
-import com.example.picos.ui.fragment.HistoryFragment
+import com.example.picos.ui.fragment.ProfileFragment
 import com.example.picos.ui.fragment.HomeFragment
 
 
@@ -47,9 +42,9 @@ class MainActivity : AppCompatActivity() {
                     fragmentTransaction.commit()
                     true
                 }
-                com.example.picos.R.id.navigation_logs -> {
+                com.example.picos.R.id.navigation_profile -> {
                     val fragmentTransaction: FragmentTransaction = fragmentManager.beginTransaction()
-                    fragmentTransaction.replace(binding.fragmentContainerViewTag.id, HistoryFragment())
+                    fragmentTransaction.replace(binding.fragmentContainerViewTag.id, ProfileFragment())
                     fragmentTransaction.commit()
                     true
                 }

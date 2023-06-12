@@ -10,7 +10,7 @@
         android:title="Calendar" />
 
     <item
-        android:id="@+id/navigation_logs"
+        android:id="@+id/navigation_profile"
         android:icon="@drawable/baseline_account_circle_24"
         android:title="Logs" />
 
