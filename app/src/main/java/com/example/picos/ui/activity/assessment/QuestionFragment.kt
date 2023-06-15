@@ -47,15 +47,11 @@ class QuestionsFragment : Fragment(), View.OnClickListener {
     private fun setQuestions() {
         var question: DummyQuestions = dummyQuestList[currentQuest-1]
         binding.tvquestion.text = question.question
+        binding.tvMarrydesc.text = question.descMarry
         binding.tvOptOne.text = question.optiOne
         binding.tvOptTwo.text = question.optiTwo
         binding.tvOptThree.text = question.optiThree
         binding.tvOptFour.text = question.optiFour
-
-        binding.pb.progress = currentQuest
-
-        //nanti ubah biar ga hardcode
-        binding.tvProgress.text = "$currentQuest" + "/" + binding.pb.max //interpolation
 
 
         setAppearance()
@@ -63,7 +59,7 @@ class QuestionsFragment : Fragment(), View.OnClickListener {
 
         //implementasi finished button di pertanyaan terakhir
         if(currentQuest == dummyQuestList.size) {
-            binding.btnNext.text = getString(R.string.assessment_dash)
+            binding.btnNext.text = getString(R.string.button_finished)
         }
     }
 
@@ -147,10 +143,6 @@ class QuestionsFragment : Fragment(), View.OnClickListener {
 
             }
 
-            //belum tau caranya
-            //R.id.btn_prev ->{
-
-            //}
         }
     }
 
