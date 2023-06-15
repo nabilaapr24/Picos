@@ -11,8 +11,8 @@
         android:label="fragment_dashboard"
         tools:layout="@layout/fragment_dashboard" >
         <action
-            android:id="@+id/action_dashboardFragment_to_questionsFragment"
-            app:destination="@id/questionsFragment" />
+            android:id="@+id/action_dashboardFragment_to_fillQuestionFragment"
+            app:destination="@id/fillQuestionFragment" />
     </fragment>
     <fragment
         android:id="@+id/questionsFragment"
@@ -28,4 +28,36 @@
         android:name="com.example.picos.ui.activity.assessment.ResultFragment"
         android:label="fragment_result"
         tools:layout="@layout/fragment_result" />
+    <fragment
+        android:id="@+id/ageQuestionFragment"
+        android:name="com.example.picos.ui.activity.assessment.AgeQuestionFragment"
+        android:label="AgeQuestionFragment" >
+        <action
+            android:id="@+id/action_ageQuestionFragment_to_questionsFragment"
+            app:destination="@id/questionsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/YNQuestionFragment"
+        android:name="com.example.picos.ui.activity.assessment.YNQuestionFragment"
+        android:label="YNQuestionFragment" >
+        <action
+            android:id="@+id/action_YNQuestionFragment_to_ageQuestionFragment"
+            app:destination="@id/ageQuestionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoricalQuestionFragment"
+        android:name="com.example.picos.ui.activity.assessment.CategoricalQuestionFragment"
+        android:label="CategoricalQuestionFragment" >
+        <action
+            android:id="@+id/action_categoricalQuestionFragment_to_YNQuestionFragment"
+            app:destination="@id/YNQuestionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fillQuestionFragment"
+        android:name="com.example.picos.ui.activity.assessment.FillQuestionFragment"
+        android:label="FillQuestionFragment" >
+        <action
+            android:id="@+id/action_fillQuestionFragment_to_categoricalQuestionFragment"
+            app:destination="@id/categoricalQuestionFragment" />
+    </fragment>
 </navigation>

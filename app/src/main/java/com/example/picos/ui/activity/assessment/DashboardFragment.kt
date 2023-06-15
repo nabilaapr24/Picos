@@ -20,9 +20,8 @@ class DashboardFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_dashboard, container, false)
-        // binding = FragmentDashboardBinding.inflate(layoutInflater)
         binding.btnAss.setOnClickListener {view: View ->
-            view.findNavController().navigate(R.id.action_dashboardFragment_to_questionsFragment)
+            view.findNavController().navigate(R.id.action_dashboardFragment_to_fillQuestionFragment)
         }
 
 

@@ -21,7 +21,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="self_assessment">Self Assessment</string>
     <string name="progressbar_start">1/4</string>
-    <string name="sample_question">How\'s it your day?</string>
+    <string name="sample_question">How long have you been married or in a committed relationship?</string>
     <string name="optionone">OptionOne</string>
     <string name="optiontwo">Option Two</string>
     <string name="option_three">Option Three</string>
@@ -46,11 +46,36 @@
     <string name="question_home">What do you want to do?</string>
     <string name="period">Period:</string>
     <string name="day">8</string>
-    <string name="self_assessment_desc">Lorem ipsum dolor sit amet ko wi lulu lulu lulu lulu lulu lulu lulu lulu lulu lulu lulu lulu lullu lulu.</string>
+    <string name="self_assessment_desc">Discover your potential risk for PCOS with our self-assessment feature. Click here and take control of your health today in just a few simple steps.</string>
     <string name="my_cycle_desc">Lorem ipsum dolor sit amet ko wi lulu lulu lulu lulu lulu lulu lulu lulu lulu lulu lulu lulu lullu lulu.</string>
 
     <!--    Profile & Edit Profile    -->
     <string name="full_name">Full Name</string>
     <string name="last_name">Last Name</string>
+
+    <!-- Splash & On Boarding Screen -->
+    <string name="ob1_desc">What PCOS is?</string>
+    <string name="ob1_content">Polycystic Ovary Syndrome (PCOS) is a hormonal disorder that affects women\'s reproductive health. It can cause irregular periods, fertility challenges, hormonal imbalances, and unwanted physical symptoms such as excessive hair growth and acne.</string>
+    <string name="obTwo_title">What is the long-term risks?</string>
+    <string name="ob2_content">PCOS also increases the risk of long-term health issues like diabetes, heart disease, and endometrial cancer. Understanding and managing PCOS is crucial for women\'s overall well-being.</string>
+    <string name="obthree_title">PiCOS here for you!</string>
+    <string name="ob3_content">Provides valuable insights and guidance to help you understand Polycystic Ovary Syndrome (PCOS) and its impact on your body. Learn how to manage symptoms, track your menstrual cycle, and connect with trusted OBGYN specialists for personalized care. Empower yourself with knowledge and proactive measures to live a healthier, happier life.</string>
+
+
+    <string name="age_category">Which age category do you belong to?</string>
+    <string name="age_desc">Age category helps in understanding the potential impact of age-related factors on reproductive health and hormonal balance. It provides insights into the specific age group you belong to for better assessment and recommendations.</string>
+    <string name="marry_desc">The duration of marriage or committed relationships can be relevant in understanding potential fertility challenges or hormonal imbalances.</string>
+    <string name="option_Yes">Yes</string>
+    <string name="option_No">No</string>
+    <string name="yesno_question">Are your menstrual cycles regular or irregular?</string>
+    <string name="yn_desc">Menstrual cycle regularity refers to the consistent timing and duration of your periods. Regular periods usually vary between 23-35 days. Use our tracker feature to track your period cycle</string>
+    <string name="categorical_question">What is your blood group?</string>
+    <string name="cat_desc">Knowing your blood group is essential for medical purposes and can impact your health in certain situation.</string>
+    <string name="blood_cat">A+</string>
+    <string name="blood_cat2">A-</string>
+    <string name="fill_question">What is your body mass index (BMI)?</string>
+    <string name="fill_desc">BMI is a measure of body fat based on your height and weight. It helps assess if you have a healthy weight or if you are underweight, overweight, or obese. Calculate your BMI using a reliable online calculator or consult with a healthcare professional.</string>
+    <string name="numerical_input">Numerical input</string>
+    <string name="button_finished">Finished</string>
     <!-- TODO: Remove or change this placeholder text -->
 </resources>

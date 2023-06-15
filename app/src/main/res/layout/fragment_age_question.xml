@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/lavender"
-        tools:context=".ui.activity.assessment.QuestionsFragment">
+        tools:context=".ui.activity.assessment.AgeQuestionFragment">
 
 
         <TextView
@@ -16,14 +16,12 @@
             android:layout_marginTop="60dp"
             android:text="@string/self_assessment"
             android:textColor="@color/white"
-            android:fontFamily="@font/poppins_semi_bold"
             android:textSize="30sp"
-            android:textStyle="bold"
+            android:fontFamily="@font/poppins_semi_bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -33,90 +31,45 @@
             android:backgroundTint="@color/white"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTitleAD"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvTitleAD">
+            app:layout_constraintStart_toStartOf="parent">
 
             <LinearLayout
                 android:layout_width="360dp"
                 android:layout_height="500dp"
                 android:orientation="vertical">
-                <!--
-                <RadioGroup
-                    android:id="@+id/radio_group"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp">
-
-                    <TextView
-                        android:id="@+id/tvquestion"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/sample_question"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <RadioButton
-                        android:id="@+id/optOne"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:onClick="onRadioButtonClicked"
-                        android:text="@string/optionone" />
-
-                    <RadioButton
-                        android:id="@+id/optTwo"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:onClick="onRadioButtonClicked"
-                        android:text="@string/optiontwo" />
-
-                    <RadioButton
-                        android:id="@+id/optThree"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:onClick="onRadioButtonClicked"
-                        android:text="@string/option_three" />
-
-                    <RadioButton
-                        android:id="@+id/optFour"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:onClick="onRadioButtonClicked"
-                        android:text="@string/option_four" />
-                </RadioGroup>
-                -->
 
                 <TextView
-                    android:id="@+id/tvquestion"
+                    android:id="@+id/tv_agequestion"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="20dp"
                     android:paddingHorizontal="20dp"
-                    android:fontFamily="@font/poppins_bold"
-                    android:text="@string/sample_question"
+                    android:text="@string/age_category"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:fontFamily="@font/poppins_bold"/>
 
                 <TextView
-                    android:id="@+id/tv_marrydesc"
+                    android:id="@+id/tv_agedesc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingHorizontal="20dp"
-                    android:text="@string/marry_desc"
+                    android:paddingBottom="10dp"
+                    android:text="@string/age_desc"
                     android:textColor="@color/grey_desc"
                     android:textSize="14sp"
                     android:fontFamily="@font/poppins_regular" />
 
                 <TextView
-                    android:id="@+id/tv_optOne"
+                    android:id="@+id/tv_optOneAge"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:background="@drawable/question_border"
                     android:gravity="center"
-                    android:padding="12dp"
+                    android:padding="15dp"
                     android:text="@string/optionone"
                     android:textColor="@color/black"
                     android:textSize="17sp"
@@ -124,41 +77,27 @@
 
 
                 <TextView
-                    android:id="@+id/tv_optTwo"
+                    android:id="@+id/tv_optTwoAge"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:background="@drawable/question_border"
                     android:gravity="center"
-                    android:padding="12dp"
+                    android:padding="15dp"
                     android:text="@string/optiontwo"
                     android:textColor="@color/black"
                     android:textSize="17sp"
                     android:textStyle="bold" />
 
-
                 <TextView
-                    android:id="@+id/tv_optThree"
+                    android:id="@+id/tv_optThreeAge"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:background="@drawable/question_border"
                     android:gravity="center"
-                    android:padding="12dp"
+                    android:padding="15dp"
                     android:text="@string/option_three"
-                    android:textColor="@color/black"
-                    android:textSize="17sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/tv_optFour"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:background="@drawable/question_border"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="@string/option_four"
                     android:textColor="@color/black"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -169,7 +108,7 @@
 
 
         <Button
-            android:id="@+id/btn_next"
+            android:id="@+id/btnAge_next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
